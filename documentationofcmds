@@ -1,0 +1,5 @@
+okay so run the command:
+pip install fastapi uvicorn tensorflow numpy pillow
+to install the fastapi for the backend
+to load pkl files
+pip install fastapi[all] scikit-learn joblib numpy Pillow

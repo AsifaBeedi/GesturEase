@@ -1,0 +1,30 @@
+name: gesturease
+description: "A new Flutter project."
+publish_to: 'none' # Remove this if you plan to publish the package.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.5
+  flutter_tts: ^3.7.0
+  http: ^0.13.6  # Downgraded to a compatible version
+  cupertino_icons: ^1.0.8
+  image_picker: ^0.8.5+3  # Added image_picker dependency
+  image: ^3.0.1
+  translator: ^0.1.7  # Correct package for translation functionality
+  camera: ^0.10.0+1  # Added camera dependency
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/home_image.jpg
+    - assets/images/doodle.jpeg
